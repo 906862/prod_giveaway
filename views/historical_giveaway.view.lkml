@@ -38,7 +38,7 @@ view: historical_giveaway {
   # Click on the type parameter to see all the options in the Quick Help panel on the right.
 
   measure: total_giveaway_perc {
-    type: sum
+    type: average
     sql: ${giveaway_perc} ;;
   }
 
