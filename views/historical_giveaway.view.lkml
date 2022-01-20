@@ -37,7 +37,7 @@ view: historical_giveaway {
   # measures for this dimension, but you can also add measures of many different aggregates.
   # Click on the type parameter to see all the options in the Quick Help panel on the right.
 
-  measure: total_giveaway_perc {
+  measure: avg_giveaway_perc {
     type: average
     sql: ${giveaway_perc} ;;
   }
